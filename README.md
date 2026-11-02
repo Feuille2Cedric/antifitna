@@ -8,6 +8,8 @@
 
 `100 % STATIQUE` · `SANS COMPTE` · `SANS SERVEUR` · `COMPATIBLE GITHUB PAGES`
 
+**[Jouer en ligne →](https://feuille2cedric.github.io/antifitna/)**
+
 </div>
 
 ---
@@ -26,6 +28,8 @@ Le dashboard rassemble :
 - un formulaire pour ajouter rapidement un match.
 
 ## Lancer le site
+
+La version publiée est disponible sur **https://feuille2cedric.github.io/antifitna/**.
 
 Ouvre [`dist/index.html`](./dist/index.html) dans un navigateur récent. Aucune installation n’est nécessaire.
 
