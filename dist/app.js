@@ -1,4 +1,4 @@
-const STORAGE_KEY='antifitna-matches';
+const STORAGE_KEY='antifitna-matches-v2';
 let matches=JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]');
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const fmt=n=>Number(n).toLocaleString('fr-FR');
