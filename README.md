@@ -27,6 +27,8 @@ Le dashboard rassemble :
 - l’historique des dernières parties ;
 - un formulaire pour ajouter rapidement un match.
 
+Les deux personnages sont fixes : **Cédric** et **Issa**. Il ne s’agit pas de deux comptes ni d’un système de connexion. Quand vous ajoutez une partie, vous saisissez librement le nom du jeu et choisissez simplement le gagnant.
+
 ## Lancer le site
 
 La version publiée est disponible sur **https://feuille2cedric.github.io/antifitna/**.
