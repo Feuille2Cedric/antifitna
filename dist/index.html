@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <style>.records-list{margin-top:12px}.record-row{display:grid;grid-template-columns:1fr 80px 90px 110px;align-items:center;gap:12px;border-top:1px solid var(--line);padding:14px 0}.record-row:first-child{border-top:0}.record-game{font-weight:600}.record-game small{display:block;color:var(--muted);font:10px 'DM Mono';margin-top:4px}.record-player{color:var(--lime);font-size:12px}.record-row strong{font:17px 'DM Mono';color:var(--lime);text-align:right}.record-row>span{color:var(--muted);font:11px 'DM Mono';text-align:right}@media(max-width:800px){.record-row{grid-template-columns:1fr auto}.record-row>span{grid-column:1}.record-row strong{grid-column:2;grid-row:1}.record-player{grid-column:2;grid-row:2;text-align:right}}</style>
 </head>
 <body>
   <main class="app-shell">
@@ -32,6 +33,7 @@
     <section class="content-grid" data-view="dashboard">
       <article class="panel chart-panel"><div class="panel-heading"><div><p class="section-kicker">TENDANCE</p><h2>Les dernières parties</h2></div><button class="text-button" data-view-link="history">Voir tout <span>→</span></button></div><div id="chartEmpty" class="empty-state">Ajoutez votre première partie pour voir apparaître la tendance.</div><div id="chart" class="chart" hidden></div></article>
       <article class="panel"><div class="panel-heading"><div><p class="section-kicker">CLASSEMENT</p><h2>Qui mène ?</h2></div><span class="pill">ELO</span></div><div id="ranking" class="ranking"><div class="empty-state">Le classement apparaîtra ici.</div></div></article>
+      <article class="panel records-panel"><div class="panel-heading"><div><p class="section-kicker">RECORDS DE POINTS</p><h2>Les meilleurs scores</h2></div><button class="text-button" data-view-link="games">Par jeu <span>→</span></button></div><div id="records" class="records-list"><div class="empty-state">Les records apparaîtront après votre première partie.</div></div></article>
     </section>
 
     <section class="view-section" data-view="games" hidden><div class="page-heading"><div><p class="eyebrow">VOTRE COLLECTION</p><h2>Les jeux</h2><p>Chaque jeu apparaît automatiquement après votre première partie.</p></div><button class="button button-primary" data-open-modal>+ Ajouter une partie</button></div><div id="gamesGrid" class="games-grid"><div class="empty-state large">Aucun jeu pour le moment.<br><span>Ajoutez une partie pour commencer votre collection.</span></div></div></section>
